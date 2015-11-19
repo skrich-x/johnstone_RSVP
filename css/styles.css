@@ -48,8 +48,13 @@ body {
   background-image: url("../abstract-holiday-background.jpg");
 }
 
+#thank-you{
+  background: #eee;
+  margin: 1em auto;
+}
+
 #thank-you h2{
-  font-family: 'Kurale', serif;
+  font-family: 'Raleway', serif;
   font-size: 2em;
   color:#e62739;
 }
