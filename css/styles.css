@@ -1,7 +1,7 @@
 body {
-    background: #eee;
-    padding: 0 25px;
-    text-align: center;
+  background: #eee;
+  padding: 0 25px;
+  text-align: center;
 }
 
 
@@ -39,9 +39,9 @@ body {
 }
 
 #main h2 {
-    font-family: 'Kurale', serif;
-    font-size: 2em;
-    color:#e62739;
+  font-family: 'Kurale', serif;
+  font-size: 2em;
+  color:#e62739;
 }
 
 .header-container{

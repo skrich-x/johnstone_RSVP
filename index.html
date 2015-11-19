@@ -24,7 +24,6 @@
         </div>
 
           <h2 class="rsvp-header">Customer Appreciation Dinner RSVP</h2>
-          <fieldset>
 
           <form id="rsvp-form" name="rsvp-form" class="pure-form pure-form-stacked pure-u-18-24">
             <div class="form-input">
@@ -57,7 +56,11 @@
             </div>
 
           </form>
-        </fieldset>
+      </div>
+
+      <div id="thank-you" class="hidden">
+        <h2>Thank you Reserving your spot at our<br>Custome Appreciation Dinner<br>
+        We will see you December 10th @ 6pm at South Peidmont Community College</h2>
       </div>
 
   <script type="text/javascript">
@@ -83,10 +86,14 @@
         newAttendee.save({
           success: function (){
             console.log("saved");
+            $("#rsvp-form").hide();
+            $("#thank-you").removeClass("hidden");
+
           }, error: function(error){
             console.log("Error:"+error.message);
           }
         });
+
     });
 
   </script>
