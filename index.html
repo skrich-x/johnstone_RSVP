@@ -5,6 +5,8 @@
   <title>My Parse App</title>
   <meta name="description" content="My Parse App">
   <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/styles.css">
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -17,9 +19,11 @@
 
     <div id="main">
 
+          <img class="pure-img" src="graphic_snowflakeJS.png">
+
           <h2 class="rsvp-header">Customer Appreciation RSVP</h2>
 
-          <form id="rsvp-form" name="rsvp-form">
+          <form id="rsvp-form" name="rsvp-form" class="pure-form pure-form-stacked">
             <p>
               <label> First Name </label>
               <input id="first-name" name="first-name" maxlength="50" value="" type="text" placeholder="First Name" required>
@@ -46,7 +50,7 @@
             </p>
 
             <p>
-              <input id="rsvp-submit" class="submit-button" type="submit" value="Submit RSVP" />
+              <input id="rsvp-submit" class="pure-button" type="submit" value="Submit RSVP" />
             </p>
 
           </form>
