@@ -47,3 +47,9 @@ body {
 .header-container{
   background-image: url("../abstract-holiday-background.jpg");
 }
+
+#thank-you h2{
+  font-family: 'Kurale', serif;
+  font-size: 2em;
+  color:#e62739;
+}
